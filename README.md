@@ -1,0 +1,1 @@
+This is a homage to the old [Apple website](https://web.archive.org/web/20140301004610/http://www.apple.com/).  It is just for learning and fun.  Based on an assignment set by [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients?ref=lnav) 
