@@ -1,0 +1,142 @@
+
+ul ol {
+  padding: 0;
+
+}
+li {
+    padding: 0;
+    list-style-type: none;
+}
+.start {
+  background: url("images/background.jpg") 50% 100% no-repeat;
+  padding-top: 40px;
+
+}
+
+
+header nav ul{
+  display:grid;
+  grid-template-columns: repeat(8, 100px) 150px;
+  align-content: center;
+  justify-content: center;
+  color: white;
+
+  width: 100%;
+
+}
+header nav a {
+  color:white;
+  text-decoration: none;
+}
+header nav img {
+  height:20px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 0;
+}
+header nav li > * {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #888,
+    #555 50%,
+    #888 50%
+    );
+  border: 1px solid DimGray;
+  border-radius: 2px;
+    height: 30px;
+}
+header nav li > *:hover {
+  background-image: linear-gradient(
+    to top,
+    #666,
+    #373737 50%,
+    #666 50%
+    );
+
+}
+input {
+  display: inline-block;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    to top,
+    #999,
+    #676767 50%,
+    #AAA 50%
+    );
+  width: 85%;
+  height: 60%;
+
+}
+.search-field {
+  display:grid;
+  grid-gap: 3px;
+  padding-left: 10px;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.cta  {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta h1, .cta h2,.cta a{
+  text-align: center;
+  padding 20px;
+  color:white;
+  font-family: Palatino,Georgia;
+  font-weight: 100;
+}
+.cta h1 {
+  font-size: 4em;
+}
+.cta h2 {
+  font-size: 2.6em;
+}
+.cta a {
+  font-size: 1.8em;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 100px;
+}
+
+.promo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.promo img {
+  object-fit: cover;
+  object-position: 50% 0%;
+  width:100%;
+  min-width: 270px;
+  height: 180px;
+}
+footer {
+  color: DarkGray;
+  font-size: 0.8em;
+}
+footer a {
+  color: skyBlue;
+  text-decoration: none
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer nav {
+  display: grid;
+  grid-template-columns: 500px 600px;
+  justify-content: center;
+  align-items: center;
+}
+footer nav ul {
+  display: grid;
+  grid-template-columns: repeat(7,auto);
+  justify-content: center;
+  grid-gap: 0.4em;
+}
+.copyright {
+  grid-row: 2;
+}
